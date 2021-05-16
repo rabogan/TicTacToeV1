@@ -10,7 +10,7 @@ int main()
 	int n = 0;
 	while (true)
 	{
-		cout << "How big would you like your grid to be?\n";
+		cout << "How big would you like your grid to be?   [" << low << "-" << high << "]":  ;
 		cin >> n;
 		if (n >= low && n <= high)
 			break;
